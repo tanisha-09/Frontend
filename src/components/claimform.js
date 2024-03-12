@@ -17,7 +17,7 @@ const ClaimForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:5000/api/v1/post/claim", {
+    fetch("https://claims-management-system-backend.onrender.com/api/v1/post/claim", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
